@@ -1,0 +1,16 @@
+id = "magnus"
+
+[email]
+username = "magnus"
+host = "groktop.us"
+
+[name]
+display = "Magnus Hedemark"
+
+[social]
+email = ""
+#facebook  = "MunifTanjim"
+twitter = "magnus919"
+linkedin = "hedemark"
+github = "magnus919"
+instagram = "magnus919"

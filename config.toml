@@ -1,18 +1,101 @@
 baseurl = "https://groktop.us/"
 title = "groktopus"
-subtitle = "To be is to know."
-author = "Magnus Hedemark"
-copyright = "Copyright © 2018, Magnus Hedemark; all rights reserved."
+copyright = ""
 canonifyurls = true
-#defaultContentLanguage = "en"
-#disqusShortname = "groktopus-1"
-#enableEmoji = true
-#enableRobotsTXT = true
+disqusShortname = "groktopus-1"
 googleAnalytics = "UA-129056468-1"
+defaultContentLanguage = "en"
 languageCode = "en-us"
-#pygmentsCodeFences = true
-#pygmentsStyle = "native"
-#pygmentsUseClasses =  true
-theme = "newsprint"
+theme = "minimo"
+Paginate = 5
+preserveTaxonomyNames = true
+enableRobotsTXT = true # generate robots.txt
+enableEmoji = true
+
 [permalinks]
   posts = "/:year/:month/:day/:slug/"
+
+[params.info]
+description = "To be is to know."
+title404 = "Nothing's here!"
+
+[params.assets]
+favicon = "favicon.ico"
+customCSS = ["css/custom.css"]
+customJS = ["js/custom.js"]
+gopher = "" # used in 404 template ( Generator: https://gopherize.me )
+
+[params.copyright]
+prefix = ""
+holder = "Magnus Hedemark"
+startYear = "2018"
+suffix = ""
+
+[params.settings]
+# date & time format: https://golang.org/pkg/time/
+dateFormat = "Jan 02, 2006"
+listDateFormat = "Jan 02, 2006"
+archiveDateFormat = "Jan 02"
+hideEntryNavigation = ["page"] # boolean / array of sections
+hideEntryMeta = ["page"] # boolean / array of sections
+showReadingTime = true
+showLastmod = true
+taxonomyCloudShuffle = true
+accentColor = "#ffcd00"
+hideMainMenu = false
+
+[params.sidebar]
+enable = true
+
+[params.widgets]
+homepage = ["recent_posts"]
+sidebar = ["about","search","sidebar_menu","taxonomy_cloud"]
+footer = ["social_menu"]
+
+[params.opengraph.twitter]
+page = "magnus919" # Twitter page username
+
+[params.seo]
+# Title Separator: - – — · • * ⋆ | ~ « » < >
+titleSeparator = "•"
+
+[params.social]
+#codepen = "MunifTanjim"
+email = "magnus@groktop.us"
+#facebook = ""
+github = "magnus919"
+#gitlab = ""
+instagram = "magnus919"
+linkedin = "hedemark"
+twitter = "magnus919"
+#telegram = ""
+#google_scholar = ""
+#youtube = ""
+
+[params.comments]
+enable = true
+
+# Isso: https://posativ.org/isso/
+[params.comments.isso]
+enable = false
+scriptSrc = "" # "https://isso.example.com/js/embed.min.js"
+dataAttrs = "" # "data-isso='https://isso.example.com' data-isso-require-author='true'"
+
+[taxonomies]
+author = "authors"
+category = "categories"
+series = "series"
+tag = "tags"
+
+[blackfriday]
+hrefTargetBlank = true
+
+[languages]
+# edit this block for your own language
+[languages.en]
+lang = "en"
+languageName = "English"
+weight = 1
+
+[params.opengraph.twitter]
+page = "magnus919"
