@@ -2,7 +2,7 @@ baseurl = "https://groktop.us/"
 title = "groktopus"
 #author = "Magnus Hedemark"
 copyright = "Copyright © 2018, Magnus Hedemark; all rights reserved."
-canonifyurls = false
+canonifyurls = true
 paginate = 3
 defaultContentLanguage = "en"
 disqusShortname = "groktopus-1"
@@ -13,7 +13,7 @@ languageCode = "en-us"
 pygmentsCodeFences = true
 pygmentsStyle = "native"
 pygmentsUseClasses =  true
-theme = "minimal"
+theme = "newsprint"
 [author]
   gravatarEmail = "magnus.hedemark@protonmail.ch"
   homepageText = "groktopus"
