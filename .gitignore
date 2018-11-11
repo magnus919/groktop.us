@@ -1,5 +1,5 @@
-#/themes/*
-#!/themes/.gitkeep
+/themes/*
+!/themes/.gitkeep
 
 /public/*
 !/public/.gitkeep
