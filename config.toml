@@ -13,7 +13,7 @@ languageCode = "en-us"
 pygmentsCodeFences = true
 pygmentsStyle = "native"
 pygmentsUseClasses =  true
-theme = "hugo-paper"
+theme = "hugo-nederburg-theme"
 [author]
   gravatarEmail = "magnus.hedemark@protonmail.ch"
   homepageText = "groktopus"
@@ -49,3 +49,35 @@ theme = "hugo-paper"
   posts = "/:year/:month/:day/:slug/"
 [pygmentsOptions]
   linenos = false
+[params.writers."Magnus Hedemark"]
+  link = "https://groktop.us"
+  email = "magnus@groktop.us"
+  bio = [ "Magnus is the head groktopus." ]
+  twitter = "https://twitter.com/Magnus919"
+  linkedin = "https://linkedin.com/in/hedemark"
+  instagram = "https://instagram.com/Magnus919"
+  github = "https://github.com/magnus919"
+[params.social]
+#  facebook      = "full Social profile url in facebook"
+#  googleplus    = "full profile url in googleplus"
+  email         = "magnus@groktop.us"
+#  twitter       = "full profile url in twitter"
+#  linkedin      = "full profile url in linkedin"
+#  stackoverflow = "full profile url in stackoverflow"
+#  instagram     = "full profile url in instagram"
+#  github        = "full profile url in github"
+#  pinterest     = "full profile url in pinterest"
+  rss = true
+
+#[params.writers."Göran Svensson"]
+#  link = "https://appernetic.io/"
+#  email = "goran@molnsys.com"
+#  bio = ["Göran is an avid blogger and the founder of <a href='https://appernetic.io/'>Appernetic.io</a>. This is the author bio shown after posts."]
+#  facebook      = "full Göran profile url in facebook"
+#  googleplus    = "full profile url in googleplus"
+#  twitter       = "full profile url in twitter"
+#  linkedin      = "full profile url in linkedin"
+#  stackoverflow = "full profile url in stackoverflow"
+#  instagram     = "full profile url in instagram"
+#  github        = "full profile url in github"
+#  pinterest = "full profile url in pinterest"

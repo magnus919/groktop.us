@@ -3,8 +3,8 @@ COPY . /data
 WORKDIR /data
 RUN rm -rf themes/*
 #RUN git clone https://github.com/eshlox/simplicity.git themes/simplicity
-RUN git clone https://github.com/nanxiaobei/hugo-paper.git themes/hugo-paper
-
+#RUN git clone https://github.com/nanxiaobei/hugo-paper.git themes/hugo-paper
+RUN git clone https://github.com/appernetic/hugo-nederburg-theme.git themes/hugo-nederburg-theme
 ##
 
 FROM skyscrapers/hugo:0.46
