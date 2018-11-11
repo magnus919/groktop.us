@@ -1,7 +1,51 @@
-baseurl = "https://gohugo.io/"
-title = "Hugo Themes"
-author = "Steve Francia"
-copyright = "Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved."
+baseurl = "https://groktop.us/"
+title = "groktopus"
+#author = "Magnus Hedemark"
+copyright = "Copyright © 2018, Magnus Hedemark; all rights reserved."
 canonifyurls = false
 paginate = 3
-
+defaultContentLanguage = "en"
+disqusShortname = "groktopus"
+enableEmoji = true
+enableRobotsTXT = true
+googleAnalytics = ""
+languageCode = "en-us"
+pygmentsCodeFences = true
+pygmentsStyle = "native"
+pygmentsUseClasses =  true
+theme = "hugo-paper"
+[author]
+  gravatarEmail = "magnus.hedemark@protonmail.ch"
+  homepageText = "groktopus"
+  name = "Magnus Hedemark"
+  rss = "/posts/index.xml"
+[imaging]
+  anchor = "smart"
+  resampleFilter = "box"
+  quality = 75
+[[menu.pages]]
+  name = "Projects"
+  weight = -100
+  identifier = "projects"
+  url = "/projects/"
+[[menu.pages]]
+  name = "Photos"
+  weight = -90
+  identifier = "photos"
+  url = "/photos/"
+[outputs]
+  home = ["HTML"]
+  page = ["HTML"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+  taxonomyTerm = ["HTML"]
+[params]
+  adsenseClient = ''
+  adsenseSlot = ''
+  description = "A blog about everything."
+  licence = "[Some Rights Reserved](http://creativecommons.org/licenses/by-sa/4.0/)."
+  displayPostLanguage = true
+[permalinks]
+  posts = "/:year/:month/:day/:slug/"
+[pygmentsOptions]
+  linenos = false
