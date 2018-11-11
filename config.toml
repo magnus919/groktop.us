@@ -1,140 +1,18 @@
 baseurl = "https://groktop.us/"
 title = "groktopus"
-#author = "Magnus Hedemark"
+subtitle = "To be is to know."
+author = "Magnus Hedemark"
 copyright = "Copyright © 2018, Magnus Hedemark; all rights reserved."
 canonifyurls = true
-paginate = 3
-defaultContentLanguage = "en"
-disqusShortname = "groktopus-1"
-enableEmoji = true
-enableRobotsTXT = true
+#defaultContentLanguage = "en"
+#disqusShortname = "groktopus-1"
+#enableEmoji = true
+#enableRobotsTXT = true
 googleAnalytics = "UA-129056468-1"
 languageCode = "en-us"
-pygmentsCodeFences = true
-pygmentsStyle = "native"
-pygmentsUseClasses =  true
+#pygmentsCodeFences = true
+#pygmentsStyle = "native"
+#pygmentsUseClasses =  true
 theme = "newsprint"
-[author]
-  gravatarEmail = "magnus.hedemark@protonmail.ch"
-  homepageText = "groktopus"
-  name = "Magnus Hedemark"
-  rss = "/posts/index.xml"
-[imaging]
-  anchor = "smart"
-  resampleFilter = "box"
-  quality = 75
-[[menu.pages]]
-  name = "Projects"
-  weight = -100
-  identifier = "projects"
-  url = "/projects/"
-[[menu.pages]]
-  name = "Photos"
-  weight = -90
-  identifier = "photos"
-  url = "/photos/"
-[outputs]
-  home = ["HTML"]
-  page = ["HTML"]
-  section = ["HTML", "RSS"]
-  taxonomy = ["HTML", "RSS"]
-  taxonomyTerm = ["HTML"]
-[params]
-  adsenseClient = ''
-  adsenseSlot = ''
-  description = "A blog about everything."
-  subtitle = "A blog about everything."
-  licence = "Copyright 2018, Magnus Hedemark"
-  displayPostLanguage = true
-  author = "Magnus Hedemark"
-  githubUsername = "Magnus919"
-  accent = "red"
-  showBorder = true
-  backgroundColor = "white"
-  font = "Raleway" # should match the name on Google Fonts!
-  highlight = true
-  highlightStyle = "solarized-dark"
-  highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
 [permalinks]
   posts = "/:year/:month/:day/:slug/"
-[pygmentsOptions]
-  linenos = false
-[params.logo]
-  logoText = "groktopus"
-[params.writers."Magnus Hedemark"]
-  link = "https://groktop.us"
-  email = "magnus@groktop.us"
-  bio = [ "Magnus is the head groktopus." ]
-  twitter = "https://twitter.com/Magnus919"
-  linkedin = "https://linkedin.com/in/hedemark"
-  instagram = "https://instagram.com/Magnus919"
-  github = "https://github.com/magnus919"
-[params.social]
-#  facebook      = "full Social profile url in facebook"
-#  googleplus    = "full profile url in googleplus"
-  email         = "magnus@groktop.us"
-#  twitter       = "full profile url in twitter"
-#  linkedin      = "full profile url in linkedin"
-#  stackoverflow = "full profile url in stackoverflow"
-#  instagram     = "full profile url in instagram"
-#  github        = "full profile url in github"
-#  pinterest     = "full profile url in pinterest"
-  rss = true
-
-#[params.writers."Göran Svensson"]
-#  link = "https://appernetic.io/"
-#  email = "goran@molnsys.com"
-#  bio = ["Göran is an avid blogger and the founder of <a href='https://appernetic.io/'>Appernetic.io</a>. This is the author bio shown after posts."]
-#  facebook      = "full Göran profile url in facebook"
-#  googleplus    = "full profile url in googleplus"
-#  twitter       = "full profile url in twitter"
-#  linkedin      = "full profile url in linkedin"
-#  stackoverflow = "full profile url in stackoverflow"
-#  instagram     = "full profile url in instagram"
-#  github        = "full profile url in github"
-#  pinterest = "full profile url in pinterest"
-
-[menu]
-  [[menu.main]]
-    url = "/"
-    name = "Home"
-    weight = 1
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about"
-    weight = 2
-  [[menu.main]]
-    identifier = "contact"
-    name = "Contact"
-    url = "/contact"
-    weight = 3
-  [[menu.main]]
-    url = "/project/"
-    name = "Projects"
-    weight = 4
-
-  [[menu.icon]]
-    url = "mailto:magnus@groktop.us"
-    name = "envelope-o"
-    weight = 1
-
-  [[menu.icon]]
-    url = "https://github.com/magnus919/"
-    name = "github"
-    weight = 2
-
-  [[menu.icon]]
-    url = "https://twitter.com/magnus919/"
-    name = "twitter"
-    weight = 3
-
-  [[menu.icon]]
-    url = "https://www.linkedin.com/in/hedemark/"
-    name = "linkedin"
-    weight = 4
-
-  [[menu.icon]]
-    url = "https://instagram.com/magnus919/"
-    name = "instagram"
-    weight = 5
