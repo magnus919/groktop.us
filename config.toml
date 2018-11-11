@@ -13,7 +13,7 @@ languageCode = "en-us"
 pygmentsCodeFences = true
 pygmentsStyle = "native"
 pygmentsUseClasses =  true
-theme = "hugo-nederburg-theme"
+theme = "hello-friend"
 [author]
   gravatarEmail = "magnus.hedemark@protonmail.ch"
   homepageText = "groktopus"
@@ -43,12 +43,15 @@ theme = "hugo-nederburg-theme"
   adsenseClient = ''
   adsenseSlot = ''
   description = "A blog about everything."
-  licence = "[Some Rights Reserved](http://creativecommons.org/licenses/by-sa/4.0/)."
+  subtitle = "A blog about everything."
+  licence = "Copyright 2018, Magnus Hedemark"
   displayPostLanguage = true
 [permalinks]
   posts = "/:year/:month/:day/:slug/"
 [pygmentsOptions]
   linenos = false
+[params.logo]
+  logoText = "groktopus"
 [params.writers."Magnus Hedemark"]
   link = "https://groktop.us"
   email = "magnus@groktop.us"
@@ -81,3 +84,13 @@ theme = "hugo-nederburg-theme"
 #  instagram     = "full profile url in instagram"
 #  github        = "full profile url in github"
 #  pinterest = "full profile url in pinterest"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about"
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact"
