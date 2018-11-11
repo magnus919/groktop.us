@@ -13,7 +13,7 @@ languageCode = "en-us"
 pygmentsCodeFences = true
 pygmentsStyle = "native"
 pygmentsUseClasses =  true
-theme = "hello-friend"
+theme = "minimal"
 [author]
   gravatarEmail = "magnus.hedemark@protonmail.ch"
   homepageText = "groktopus"

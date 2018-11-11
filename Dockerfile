@@ -2,7 +2,7 @@ FROM alpine/git
 COPY . /data
 WORKDIR /data
 RUN rm -rf themes/*
-RUN git clone https://github.com/panr/hugo-theme-hello-friend.git themes/hello-friend
+RUN git clone https://github.com/calintat/minimal.git themes/minimal
 ##
 
 FROM skyscrapers/hugo:0.46
