@@ -46,6 +46,15 @@ theme = "minimal"
   subtitle = "A blog about everything."
   licence = "Copyright 2018, Magnus Hedemark"
   displayPostLanguage = true
+  author = "Magnus Hedemark"
+  githubUsername = "Magnus919"
+  accent = "red"
+  showBorder = true
+  backgroundColor = "white"
+  font = "Raleway" # should match the name on Google Fonts!
+  highlight = true
+  highlightStyle = "solarized-dark"
+  highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
 [permalinks]
   posts = "/:year/:month/:day/:slug/"
 [pygmentsOptions]
@@ -87,10 +96,45 @@ theme = "minimal"
 
 [menu]
   [[menu.main]]
+    url = "/"
+    name = "Home"
+    weight = 1
+  [[menu.main]]
     identifier = "about"
     name = "About"
     url = "/about"
+    weight = 2
   [[menu.main]]
     identifier = "contact"
     name = "Contact"
     url = "/contact"
+    weight = 3
+  [[menu.main]]
+    url = "/project/"
+    name = "Projects"
+    weight = 4
+
+  [[menu.icon]]
+    url = "mailto:magnus@groktop.us"
+    name = "envelope-o"
+    weight = 1
+
+  [[menu.icon]]
+    url = "https://github.com/magnus919/"
+    name = "github"
+    weight = 2
+
+  [[menu.icon]]
+    url = "https://twitter.com/magnus919/"
+    name = "twitter"
+    weight = 3
+
+  [[menu.icon]]
+    url = "https://www.linkedin.com/in/hedemark/"
+    name = "linkedin"
+    weight = 4
+
+  [[menu.icon]]
+    url = "https://instagram.com/magnus919/"
+    name = "instagram"
+    weight = 5
